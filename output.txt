@@ -1,0 +1,455 @@
+\testyolo7>YT_predict.py
+
+1/1: https://youtu.be/HupM1Lpnp2s... Success  (225 frames of shape 1280x720 at 29.50 FPS)
+
+
+    WARNING  stream/video/webcam/dir predict source will accumulate results in RAM unless `stream=True` is passed,
+    causing potential out-of-memory errors for large sources or long-running streams/videos.
+
+    Usage:
+        results = model(source=..., stream=True)  # generator of Results objects
+        for r in results:
+            boxes = r.boxes  # Boxes object for bbox outputs
+            masks = r.masks  # Masks object for segment masks outputs
+            probs = r.probs  # Class probabilities for classification outputs
+
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 62.8ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 47.2ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 47.7ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 49.7ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 49.2ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 51.7ms
+0: 384x640 1 wz_killcam, 2 wz_replays, 2 wz_stuns, 64.3ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 47.7ms
+0: 384x640 1 wz_perk_amped, 50.7ms
+0: 384x640 1 wz_perk_amped, 49.2ms
+0: 384x640 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 2 wz_perk_overkills, 47.7ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 2 wz_perk_overkills, 44.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 2 wz_perk_overkills, 51.7ms
+0: 384x640 2 wz_perk_ampeds, 2 wz_perk_overkills, 48.2ms
+0: 384x640 2 wz_perk_ampeds, 2 wz_perk_overkills, 58.8ms
+0: 384x640 2 wz_perk_ampeds, 2 wz_perk_overkills, 57.8ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 53.8ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 48.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 45.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 45.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 48.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 82.9ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 57.3ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 45.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 44.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 51.3ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 50.2ms
+0: 384x640 1 wz_perk_amped, 1 wz_redeploy, 46.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_redeploy, 47.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_redeploy, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 48.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 51.8ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 57.3ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 49.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 44.2ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 49.7ms
+0: 384x640 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 45.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 48.7ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 51.2ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 58.3ms
+0: 384x640 1 wz_killcam, 1 wz_perk_amped, 1 wz_loadout, 51.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 46.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 45.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 46.7ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 45.7ms
+0: 384x640 1 wz_perk_amped, 48.2ms
+0: 384x640 1 wz_perk_amped, 45.7ms
+0: 384x640 1 wz_perk_amped, 46.2ms
+0: 384x640 1 wz_perk_amped, 44.7ms
+0: 384x640 1 wz_perk_amped, 50.7ms
+0: 384x640 1 wz_perk_amped, 58.3ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 51.3ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 46.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_perk_amped, 47.2ms
+0: 384x640 1 wz_killcam, 47.2ms
+0: 384x640 1 wz_killcam, 51.2ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 46.2ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 46.7ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 47.7ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 51.8ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 80.8ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 50.3ms
+0: 384x640 (no detections), 50.3ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 45.7ms
+0: 384x640 (no detections), 48.7ms
+0: 384x640 1 wz_killcam, 45.7ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 45.7ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 50.2ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 1 wz_perk_overkill, 46.2ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 1 wz_perk_overkill, 54.8ms
+0: 384x640 1 wz_killcam, 2 wz_perk_ampeds, 1 wz_perk_overkill, 55.8ms
+0: 384x640 1 wz_replay, 48.2ms
+0: 384x640 1 wz_replay, 47.7ms
+0: 384x640 1 wz_replay, 47.2ms
+0: 384x640 1 wz_replay, 47.7ms
+0: 384x640 1 wz_replay, 46.7ms
+0: 384x640 1 wz_replay, 47.2ms
+0: 384x640 (no detections), 46.2ms
+0: 384x640 (no detections), 49.7ms
+0: 384x640 (no detections), 45.2ms
+0: 384x640 (no detections), 61.3ms
+0: 384x640 1 wz_loadout, 55.3ms
+0: 384x640 1 wz_loadout, 55.8ms
+0: 384x640 1 wz_loadout, 46.2ms
+0: 384x640 1 wz_loadout, 48.2ms
+0: 384x640 1 wz_loadout, 45.2ms
+0: 384x640 1 wz_loadout, 50.7ms
+0: 384x640 1 wz_replay, 46.2ms
+0: 384x640 1 wz_replay, 48.2ms
+0: 384x640 1 wz_replay, 48.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_loadout, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_loadout, 49.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_loadout, 60.3ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 62.8ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 50.2ms
+0: 384x640 1 wz_replay, 45.2ms
+0: 384x640 1 wz_replay, 48.7ms
+0: 384x640 1 wz_replay, 49.2ms
+0: 384x640 1 wz_replay, 52.2ms
+0: 384x640 1 wz_replay, 44.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 51.8ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 55.8ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 50.7ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 1 wz_redeploy, 49.7ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 1 wz_redeploy, 48.8ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 1 wz_redeploy, 50.7ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_redeploy, 50.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_redeploy, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_redeploy, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 1 wz_redeploy, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 1 wz_redeploy, 44.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 1 wz_redeploy, 49.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 58.8ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 51.8ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 48.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 49.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 61.3ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 60.3ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 49.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 48.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 44.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 53.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 44.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 48.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 45.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 64.3ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 59.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 49.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 50.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 48.7ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 51.3ms
+0: 384x640 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 62.3ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 43.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 43.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 44.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 52.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 62.8ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 53.3ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 47.8ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 54.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 47.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 48.2ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 56.7ms
+0: 384x640 2 wz_replays, 1 wz_loadout, 1 wz_satchel, 48.7ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 46.7ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 48.2ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 48.2ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 47.2ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 66.3ms
+0: 384x640 2 wz_replays, 1 wz_satchel, 60.3ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 48.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 49.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.2ms
+0: 384x640 (no detections), 47.7ms
+0: 384x640 (no detections), 46.2ms
+0: 384x640 (no detections), 45.7ms
+0: 384x640 (no detections), 47.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_perk_amped, 1 wz_satchel, 57.2ms
+0: 384x640 1 wz_perk_amped, 1 wz_satchel, 61.3ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 48.7ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 50.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 48.7ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 43.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 45.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 46.7ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 46.7ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 58.3ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 61.3ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 47.7ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 50.2ms
+0: 384x640 1 wz_stun, 1 wz_perk_amped, 1 wz_loadout, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 48.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 50.3ms
+0: 384x640 1 wz_replay, 1 wz_stun, 2 wz_perk_ampeds, 1 wz_perk_overkill, 1 wz_loadout, 47.2ms
+0: 384x640 1 wz_perk_amped, 48.7ms
+0: 384x640 1 wz_perk_amped, 46.7ms
+0: 384x640 1 wz_perk_amped, 46.2ms
+0: 384x640 1 wz_perk_amped, 61.8ms
+0: 384x640 1 wz_perk_amped, 58.8ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_replay, 1 wz_satchel, 44.7ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 45.7ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 46.2ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 45.2ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 45.7ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_loadout, 1 wz_satchel, 50.2ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 46.2ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 58.3ms
+0: 384x640 1 wz_perk_amped, 1 wz_loadout, 56.8ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 47.7ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 46.2ms
+0: 384x640 1 wz_replay, 1 wz_perk_amped, 1 wz_loadout, 49.7ms
+0: 384x640 1 wz_replay, 48.7ms
+0: 384x640 1 wz_replay, 47.7ms
+0: 384x640 1 wz_replay, 47.7ms
+0: 384x640 2 wz_loadouts, 1 wz_bow, 1 wz_satchel, 48.2ms
+0: 384x640 2 wz_loadouts, 1 wz_bow, 1 wz_satchel, 46.7ms
+0: 384x640 2 wz_loadouts, 1 wz_bow, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_killcam, 2 wz_loadouts, 51.7ms
+0: 384x640 1 wz_killcam, 2 wz_loadouts, 59.8ms
+0: 384x640 1 wz_killcam, 2 wz_loadouts, 47.7ms
+0: 384x640 1 wz_killcam, 3 wz_loadouts, 1 wz_bow, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_killcam, 3 wz_loadouts, 1 wz_bow, 1 wz_satchel, 45.7ms
+0: 384x640 1 wz_killcam, 3 wz_loadouts, 1 wz_bow, 1 wz_satchel, 50.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 48.7ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 46.2ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 44.2ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 55.8ms
+0: 384x640 1 wz_killcam, 61.8ms
+0: 384x640 1 wz_killcam, 46.7ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 47.2ms
+0: 384x640 1 wz_killcam, 49.2ms
+0: 384x640 1 wz_killcam, 50.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 46.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 50.3ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_loadout, 1 wz_satchel, 56.3ms
+0: 384x640 2 wz_killcams, 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 54.7ms
+0: 384x640 2 wz_killcams, 1 wz_replay, 1 wz_loadout, 1 wz_satchel, 54.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 47.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 47.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 45.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 50.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 44.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 46.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 51.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 57.3ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 49.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 48.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 46.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 1 wz_satchel, 50.2ms
+0: 384x640 1 wz_killcam, 47.7ms
+0: 384x640 1 wz_killcam, 48.8ms
+0: 384x640 1 wz_killcam, 49.2ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 48.7ms
+0: 384x640 1 wz_killcam, 49.7ms
+0: 384x640 1 wz_killcam, 50.7ms
+0: 384x640 1 wz_killcam, 60.3ms
+0: 384x640 1 wz_killcam, 60.3ms
+0: 384x640 1 wz_killcam, 48.2ms
+0: 384x640 1 wz_killcam, 1 wz_satchel, 50.7ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 49.2ms
+0: 384x640 1 wz_killcam, 1 wz_replay, 47.7ms
+0: 384x640 1 wz_redeploy, 45.7ms
+0: 384x640 1 wz_redeploy, 45.2ms
+0: 384x640 1 wz_redeploy, 45.2ms
+0: 384x640 1 wz_redeploy, 44.2ms
+0: 384x640 1 wz_redeploy, 46.7ms
+0: 384x640 1 wz_redeploy, 52.8ms
+0: 384x640 1 wz_redeploy, 58.8ms
+0: 384x640 1 wz_redeploy, 61.3ms
+0: 384x640 1 wz_redeploy, 48.7ms
+0: 384x640 1 wz_redeploy, 49.2ms
+0: 384x640 1 wz_redeploy, 46.7ms
+0: 384x640 1 wz_redeploy, 47.2ms
+0: 384x640 1 wz_redeploy, 46.7ms
+0: 384x640 1 wz_redeploy, 48.2ms
+0: 384x640 1 wz_redeploy, 51.7ms
+0: 384x640 1 wz_redeploy, 45.2ms
+0: 384x640 1 wz_redeploy, 45.7ms
+0: 384x640 1 wz_redeploy, 48.7ms
+0: 384x640 1 wz_redeploy, 60.3ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 59.8ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 46.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 48.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 49.2ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 47.2ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 1 wz_redeploy, 49.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 49.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 45.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 52.8ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 47.2ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 48.2ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 57.8ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 56.8ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 47.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 46.2ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 45.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 47.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 46.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 46.2ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 44.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 48.2ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 46.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 46.7ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 64.8ms
+0: 384x640 1 wz_ammonition, 1 wz_deady, 1 wz_playercount, 57.3ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 47.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 47.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 49.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 46.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 48.7ms
+0: 384x640 1 wz_deady, 1 wz_playercount, 49.2ms
+WARNING  Video stream unresponsive, please check your IP camera connection.
+0: 384x640 1 wz_deady, 1 wz_playercount, 52.3ms
+0: 384x640 (no detections), 47.7ms
+0: 384x640 (no detections), 48.3ms
+0: 384x640 (no detections), 44.2ms
+0: 384x640 (no detections), 55.3ms
+0: 384x640 (no detections), 59.3ms
+0: 384x640 (no detections), 59.3ms
+0: 384x640 (no detections), 53.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 49.7ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 48.7ms
+0: 384x640 (no detections), 49.7ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 48.7ms
+0: 384x640 (no detections), 46.2ms
+0: 384x640 (no detections), 47.7ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 51.7ms
+0: 384x640 (no detections), 56.3ms
+0: 384x640 (no detections), 58.3ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 49.2ms
+0: 384x640 (no detections), 47.7ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 43.7ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 43.7ms
+0: 384x640 (no detections), 49.2ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 50.7ms
+0: 384x640 (no detections), 54.2ms
+0: 384x640 (no detections), 56.8ms
+0: 384x640 (no detections), 56.3ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 44.2ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 45.7ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 45.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 43.7ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 52.2ms
+0: 384x640 (no detections), 59.3ms
+0: 384x640 (no detections), 57.3ms
+0: 384x640 (no detections), 52.7ms
+0: 384x640 (no detections), 51.2ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 50.2ms
+0: 384x640 (no detections), 48.2ms
+0: 384x640 (no detections), 46.7ms
+0: 384x640 (no detections), 43.2ms
+0: 384x640 (no detections), 47.2ms
+0: 384x640 (no detections), 43.2ms
+0: 384x640 (no detections), 50.7ms
+0: 384x640 (no detections), 45.7ms
+0: 384x640 (no detections), 48.7ms
+0: 384x640 (no detections), 53.8ms
+0: 384x640 (no detections), 57.8ms
+0: 384x640 (no detections), 54.2ms
+Speed: 0.4ms preprocess, 49.6ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)
