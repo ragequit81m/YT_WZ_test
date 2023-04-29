@@ -1,0 +1,102 @@
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    500/500         0G     0.5297     0.5623     0.8312         35        640: 100%|██████████| 6/6 [00:21<00:00,  3.65s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:05<00:00,  1
+                   all         86        231      0.872      0.995      0.995      0.909
+
+500 epochs completed in 3.863 hours.
+Optimizer stripped from runs\detect\train14\weights\last.pt, 6.2MB
+Optimizer stripped from runs\detect\train14\weights\best.pt, 6.2MB
+
+Validating runs\detect\train14\weights\best.pt...
+Ultralytics YOLOv8.0.88  Python-3.11.2 torch-2.0.0+cpu CPU
+Model summary (fused): 168 layers, 3016568 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:04<00:00,  1
+                   all         86        231      0.871      0.995      0.995      0.911
+            wz_killcam         86         37      0.985          1      0.995      0.956
+             wz_replay         86          8      0.951          1      0.995      0.949
+               wz_stun         86         23          1      0.815      0.995       0.81
+          wz_heartbeat         86          9      0.965          1      0.995      0.837
+          wz_perk_cold         86          1      0.762          1      0.995      0.995
+         wz_perk_ghost         86         10       0.96          1      0.995      0.953
+         wz_perk_amped         86         21       0.98          1      0.995      0.966
+            wz_you_mid         86         25      0.987          1      0.995      0.926
+            wz_rematch         86          1      0.484          1      0.995      0.895
+           wz_thermide         86          8      0.959          1      0.995      0.861
+            wz_capured         86          2      0.852          1      0.995      0.895
+          wz_skipgulag         86          2      0.876          1      0.995      0.895
+           wz_perk_EOD         86          1      0.749          1      0.995      0.995
+      wz_perk_overkill         86         10      0.961          1      0.995      0.971
+            wz_molotov         86          4      0.994          1      0.995      0.693
+    wz_perk_DoubleTime         86          2       0.83          1      0.995      0.995
+       wz_perk_Restock         86          1      0.754          1      0.995      0.995
+             wz_semtex         86          7      0.964          1      0.995      0.811
+             wz_shield         86          1      0.793          1      0.995      0.995
+               wz_stim         86          5      0.929          1      0.995      0.858
+         wz_ammonition         86          3      0.889          1      0.995      0.908
+     wz_spec_playagain         86          1      0.842          1      0.995      0.895
+                wz_gas         86          1      0.862          1      0.995      0.796
+              wz_knife         86          4      0.919          1      0.995      0.786
+             wz_bounty         86          1      0.772          1      0.995      0.895
+              wz_deady         86          3      0.884          1      0.995      0.995
+                 wz_c4         86          1      0.776          1      0.995      0.995
+            wz_loadout         86          5       0.93          1      0.995      0.901
+        wz_playercount         86         17      0.977          1      0.995      0.903
+                wz_bow         86          2       0.84          1      0.995      0.895
+            wz_gasmask         86          2       0.85          1      0.995      0.846
+               wz_mine         86          1      0.776          1      0.995      0.895
+            wz_satchel         86          5      0.921          1      0.995      0.906
+           wz_redeploy         86          3      0.875          1      0.995      0.895
+             wz_clamor         86          2      0.848          1      0.995      0.946
+           wz_firesale         86          1      0.768          1      0.995      0.995
+               wz_fist         86          1      0.762          1      0.995      0.995
+Speed: 0.5ms preprocess, 27.3ms inference, 0.0ms loss, 0.5ms postprocess per image
+Results saved to runs\detect\train14
+2023-04-29 04:56:52,137 - clearml.storage - INFO - Starting upload: runs\detect\train14\weights\best.pt => https://files.clear.ml/YOLOv8/testttt2.3979f45ed23f4660b65b51b1b87bb213/models/best.pt
+Ultralytics YOLOv8.0.88  Python-3.11.2 torch-2.0.0+cpu CPU
+Model summary (fused): 168 layers, 3016568 parameters, 0 gradients, 8.1 GFLOPs
+val: Scanning C:\testyolo7\datasets\coco128\labels\train2018.cache... 86 images, 0 backgrounds, 0 corrupt:
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 6/6 [00:04<00:00,  1
+                   all         86        231      0.871      0.995      0.995      0.911
+            wz_killcam         86         37      0.985          1      0.995      0.956
+             wz_replay         86          8      0.951          1      0.995      0.949
+               wz_stun         86         23          1      0.815      0.995       0.81
+          wz_heartbeat         86          9      0.965          1      0.995      0.837
+          wz_perk_cold         86          1      0.762          1      0.995      0.995
+         wz_perk_ghost         86         10       0.96          1      0.995      0.953
+         wz_perk_amped         86         21       0.98          1      0.995      0.966
+            wz_you_mid         86         25      0.987          1      0.995      0.926
+            wz_rematch         86          1      0.484          1      0.995      0.895
+           wz_thermide         86          8      0.959          1      0.995      0.861
+            wz_capured         86          2      0.852          1      0.995      0.895
+          wz_skipgulag         86          2      0.876          1      0.995      0.895
+           wz_perk_EOD         86          1      0.749          1      0.995      0.995
+      wz_perk_overkill         86         10      0.961          1      0.995      0.971
+            wz_molotov         86          4      0.994          1      0.995      0.693
+    wz_perk_DoubleTime         86          2       0.83          1      0.995      0.995
+       wz_perk_Restock         86          1      0.754          1      0.995      0.995
+             wz_semtex         86          7      0.964          1      0.995      0.811
+             wz_shield         86          1      0.793          1      0.995      0.995
+               wz_stim         86          5      0.929          1      0.995      0.858
+         wz_ammonition         86          3      0.889          1      0.995      0.908
+     wz_spec_playagain         86          1      0.842          1      0.995      0.895
+                wz_gas         86          1      0.862          1      0.995      0.796
+              wz_knife         86          4      0.919          1      0.995      0.786
+             wz_bounty         86          1      0.772          1      0.995      0.895
+              wz_deady         86          3      0.884          1      0.995      0.995
+                 wz_c4         86          1      0.776          1      0.995      0.995
+            wz_loadout         86          5       0.93          1      0.995      0.901
+        wz_playercount         86         17      0.977          1      0.995      0.903
+                wz_bow         86          2       0.84          1      0.995      0.895
+            wz_gasmask         86          2       0.85          1      0.995      0.846
+               wz_mine         86          1      0.776          1      0.995      0.895
+            wz_satchel         86          5      0.921          1      0.995      0.906
+           wz_redeploy         86          3      0.875          1      0.995      0.895
+             wz_clamor         86          2      0.848          1      0.995      0.946
+           wz_firesale         86          1      0.768          1      0.995      0.995
+               wz_fist         86          1      0.762          1      0.995      0.995
+Speed: 0.5ms preprocess, 28.7ms inference, 0.0ms loss, 0.5ms postprocess per image
+Results saved to runs\detect\val17
+Ultralytics YOLOv8.0.88  Python-3.11.2 torch-2.0.0+cpu CPU
+
+PyTorch: starting from runs\detect\train14\weights\best.pt with input shape (1, 3, 640, 640) BCHW and output shape(s) (1, 60, 8400) (5.9 MB)
+
